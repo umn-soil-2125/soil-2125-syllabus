@@ -1,0 +1,32 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "Basic Soil Science (SOIL 2125) Syllabus - Spring 2023"
+  author: "Nic Jelinski"
+  date: "21DEC2022"
+  cover-image: "soil-2125-03.png"
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - course-resources.qmd
+    - assignments-points-grades.qmd
+    - makeup-policies.qmd
+    - fine-print.qmd
+    - class-schedule.qmd
+    - further-opportunities.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

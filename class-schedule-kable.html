@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.636">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>class-schedule-kable</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="class-schedule-kable_files/libs/clipboard/clipboard.min.js"></script>
+<script src="class-schedule-kable_files/libs/quarto-html/quarto.js"></script>
+<script src="class-schedule-kable_files/libs/quarto-html/popper.min.js"></script>
+<script src="class-schedule-kable_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="class-schedule-kable_files/libs/quarto-html/anchor.min.js"></script>
+<link href="class-schedule-kable_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="class-schedule-kable_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="class-schedule-kable_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="class-schedule-kable_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="class-schedule-kable_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+<script src="class-schedule-kable_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="class-schedule-kable_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="class-schedule---subject-to-change" class="level1">
+<h1>Class Schedule - Subject to Change</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"class-schedule.csv"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(class.schedule) <span class="sc">%&gt;%</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_paper</span>(<span class="st">"striped"</span>, <span class="at">full_width =</span> F) <span class="sc">%&gt;%</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">collapse_rows</span>(<span class="at">columns =</span> <span class="dv">1</span>, <span class="at">valign =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<table class=" lightable-paper lightable-striped" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> WEEK </th>
+   <th style="text-align:left;"> DAY </th>
+   <th style="text-align:left;"> DATE </th>
+   <th style="text-align:left;"> X.TOPIC.FOCUS. </th>
+   <th style="text-align:left;"> SUGGESTED.READINGS..1. </th>
+   <th style="text-align:left;"> LAB.UNIT </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 18-Jan </td>
+   <td style="text-align:left;"> Introduction and Overview, Soil Diversity (1-1) </td>
+   <td style="text-align:left;"> pp 3-14 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 19-Jan </td>
+   <td style="text-align:left;"> Week 1 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 20-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 23-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - Color and Structure (1-3) </td>
+   <td style="text-align:left;"> pp 96-109 </td>
+   <td style="text-align:left;"> 1. Soil Properties - Texture, Color and Structure </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 25-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - By Weight/Volume (1-4) </td>
+   <td style="text-align:left;"> pp 114-123, 141-143 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 26-Jan </td>
+   <td style="text-align:left;"> Week 2 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 27-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 30-Jan </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Elemental Composition (1-5) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 2. Soil Properties - Clays and Mineralogy </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 1-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Mineralogy </td>
+   <td style="text-align:left;"> pp 235-247, 263-265 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 2-Feb </td>
+   <td style="text-align:left;"> Week 3 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 3-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 6-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Organic Matter (1-7) </td>
+   <td style="text-align:left;"> pp 361-378, 383-387 </td>
+   <td style="text-align:left;"> 3. Soil Properties - Bulk Density, Porosity, Organic Matter </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 8-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - pH (1-8) </td>
+   <td style="text-align:left;"> pp 270-311 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 9-Feb </td>
+   <td style="text-align:left;"> Week 4 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 10-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 13-Feb </td>
+   <td style="text-align:left;"> *****EXAM #1***** Unit 1 Opens 12:00PM Su 2/12, due by 11:59PM on M 2/13 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4. Ion Exchange, CEC, pH </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 15-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Ion Exchange and CEC (#1, 2-1 &amp; #2, 2-2) </td>
+   <td style="text-align:left;"> pp 248-260 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 16-Feb </td>
+   <td style="text-align:left;"> Week 5 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 17-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 20-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#1, 2-3) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;"> 5. Soil Water </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 22-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#2, 2-4) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 24-Feb </td>
+   <td style="text-align:left;"> Week 6 Discussion; LUR Property and Client Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 25-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 27-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Energy and Microorganisms (2-5) </td>
+   <td style="text-align:left;"> pp 322-351 </td>
+   <td style="text-align:left;"> 6. Soil Biological Processes (1) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 1-Mar </td>
+   <td style="text-align:left;"> Soil Processes - C and N Cycles (2-6) </td>
+   <td style="text-align:left;"> pp 396-412 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 2-Mar </td>
+   <td style="text-align:left;"> Week 7 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 3-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 8 </td>
+   <td style="text-align:left;"> M-F </td>
+   <td style="text-align:left;"> 3/6-3/10 </td>
+   <td style="text-align:left;"> *****NO CLASS - SPRING BREAK***** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 13-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Pedoturbation/Macrobiology (2-7) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 7. Soil Biological Processes (2) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 15-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Redox (2-8) </td>
+   <td style="text-align:left;"> pp 201-206, 213-218 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 16-Mar </td>
+   <td style="text-align:left;"> Week 9 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 17-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 20-Mar </td>
+   <td style="text-align:left;"> *****EXAM #2***** Unit 2 Opens 12:00PM Su 3/19, due by 11:59PM on M 3/20 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 8. Mineral Weathering </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 22-Mar </td>
+   <td style="text-align:left;"> Soil Genesis and Soil Forming Factors (3-1 &amp; 3-2) </td>
+   <td style="text-align:left;"> pp 27-43, 51-52 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 23-Mar </td>
+   <td style="text-align:left;"> Week 10 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 24-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 27-Mar </td>
+   <td style="text-align:left;"> Soil Genesis - Climate and Organisms (3-3) </td>
+   <td style="text-align:left;"> pp 43-51 </td>
+   <td style="text-align:left;"> 9. Soil Forming Factors </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 29-Mar </td>
+   <td style="text-align:left;"> Soil Horizons (3-4) </td>
+   <td style="text-align:left;"> pp 52-57 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 30-Mar </td>
+   <td style="text-align:left;"> Week 11 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 31-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 3-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#1, 3-5) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;"> 10. Soil Classification </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 5-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#2, 3-6) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 6-Apr </td>
+   <td style="text-align:left;"> Week 12 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 7-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 10-Apr </td>
+   <td style="text-align:left;"> *****EXAM #3***** Unit 3 Opens 12:00PM Su 4/9, due by 11:59PM on M 4/10 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 11. Soil Survey </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 12-Apr </td>
+   <td style="text-align:left;"> Soil Survey (#1, 4-1 &amp; #2, 4-2) </td>
+   <td style="text-align:left;"> pp 89-93 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 13-Apr </td>
+   <td style="text-align:left;"> Week 13 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 14-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 17-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#1, 4-3) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;"> 12. Soil Fertility, Soil Chemical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 19-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#2, 4-4) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 20-Apr </td>
+   <td style="text-align:left;"> Week 14 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 21-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas), LUR Draft Due Friday 4/21 @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 24-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Tillage (4-5) </td>
+   <td style="text-align:left;"> pp 110-114 </td>
+   <td style="text-align:left;"> 13. Soil Physical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 26-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Erosion (4-6) </td>
+   <td style="text-align:left;"> pp 499-533 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 28-Apr </td>
+   <td style="text-align:left;"> Week 15 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 29-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 1-May </td>
+   <td style="text-align:left;"> Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8) + Live Thank You Session </td>
+   <td style="text-align:left;"> pp 368-371, 545-551 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> Tu-F </td>
+   <td style="text-align:left;"> 5/2-5/5 </td>
+   <td style="text-align:left;"> *****EXAM #4***** Unit 4 Opens 12:00PM Tu 5/2, due by 11:59PM on F 5/5 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> Su </td>
+   <td style="text-align:left;"> 7-May </td>
+   <td style="text-align:left;"> Final LUR Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:kableExtra':
+
+    group_rows</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"class-schedule.csv"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">select</span>(class.schedule, <span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(class.schedule) <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Day"</span>, <span class="st">"Date"</span>, <span class="st">"Topic Focus"</span>, <span class="st">"Suggested Readings - Brady and Weil 4th ed"</span>, <span class="st">"Lab Unit"</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(class.schedule, <span class="at">format =</span> <span class="st">"html"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kable_styling</span>(<span class="st">"bordered"</span>, <span class="at">full_width =</span> F, <span class="at">fixed_thead =</span> T, <span class="at">html_font =</span> <span class="st">"arial"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 1"</span>, <span class="dv">1</span>,<span class="dv">3</span>, <span class="at">background =</span> <span class="st">"grey80"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 2"</span>, <span class="dv">4</span>,<span class="dv">7</span>, <span class="at">color =</span> <span class="st">"grey80"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 3"</span>, <span class="dv">8</span>,<span class="dv">11</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 4"</span>, <span class="dv">12</span>,<span class="dv">15</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 5"</span>, <span class="dv">16</span>,<span class="dv">19</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 6"</span>, <span class="dv">20</span>,<span class="dv">23</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 7"</span>, <span class="dv">24</span>,<span class="dv">27</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 8"</span>, <span class="dv">28</span>,<span class="dv">28</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 9"</span>, <span class="dv">29</span>,<span class="dv">32</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 10"</span>, <span class="dv">33</span>,<span class="dv">36</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 11"</span>, <span class="dv">37</span>,<span class="dv">40</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 12"</span>, <span class="dv">41</span>,<span class="dv">44</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 13"</span>, <span class="dv">45</span>,<span class="dv">48</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 14"</span>, <span class="dv">49</span>,<span class="dv">52</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 15"</span>, <span class="dv">53</span>,<span class="dv">56</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 16"</span>, <span class="dv">57</span>,<span class="dv">59</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scroll_box</span>(<span class="at">width =</span> <span class="st">"100%"</span>, <span class="at">height =</span> <span class="st">"1000px"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1000px; overflow-x: scroll; width:100%; "><table class="table table-bordered" style="font-family: arial; width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Day </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Date </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Topic Focus </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Suggested Readings - Brady and Weil 4th ed </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Lab Unit </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr grouplength="3"><td colspan="5" style="border-bottom: 1px solid;background-color: grey80 !important;"><strong>Week 1</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 18-Jan </td>
+   <td style="text-align:left;"> Introduction and Overview, Soil Diversity (1-1) </td>
+   <td style="text-align:left;"> pp 3-14 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 19-Jan </td>
+   <td style="text-align:left;"> Week 1 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 20-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;color: grey80 !important;"><strong>Week 2</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 23-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - Color and Structure (1-3) </td>
+   <td style="text-align:left;"> pp 96-109 </td>
+   <td style="text-align:left;"> 1. Soil Properties - Texture, Color and Structure </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 25-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - By Weight/Volume (1-4) </td>
+   <td style="text-align:left;"> pp 114-123, 141-143 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 26-Jan </td>
+   <td style="text-align:left;"> Week 2 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 27-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 3</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 30-Jan </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Elemental Composition (1-5) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 2. Soil Properties - Clays and Mineralogy </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 1-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Mineralogy </td>
+   <td style="text-align:left;"> pp 235-247, 263-265 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 2-Feb </td>
+   <td style="text-align:left;"> Week 3 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 3-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 4</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 6-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Organic Matter (1-7) </td>
+   <td style="text-align:left;"> pp 361-378, 383-387 </td>
+   <td style="text-align:left;"> 3. Soil Properties - Bulk Density, Porosity, Organic Matter </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 8-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - pH (1-8) </td>
+   <td style="text-align:left;"> pp 270-311 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 9-Feb </td>
+   <td style="text-align:left;"> Week 4 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 10-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 5</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 13-Feb </td>
+   <td style="text-align:left;"> *****EXAM #1***** Unit 1 Opens 12:00PM Su 2/12, due by 11:59PM on M 2/13 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4. Ion Exchange, CEC, pH </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 15-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Ion Exchange and CEC (#1, 2-1 &amp; #2, 2-2) </td>
+   <td style="text-align:left;"> pp 248-260 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 16-Feb </td>
+   <td style="text-align:left;"> Week 5 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 17-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 6</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 20-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#1, 2-3) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;"> 5. Soil Water </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 22-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#2, 2-4) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 24-Feb </td>
+   <td style="text-align:left;"> Week 6 Discussion; LUR Property and Client Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 25-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 7</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 27-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Energy and Microorganisms (2-5) </td>
+   <td style="text-align:left;"> pp 322-351 </td>
+   <td style="text-align:left;"> 6. Soil Biological Processes (1) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 1-Mar </td>
+   <td style="text-align:left;"> Soil Processes - C and N Cycles (2-6) </td>
+   <td style="text-align:left;"> pp 396-412 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 2-Mar </td>
+   <td style="text-align:left;"> Week 7 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 3-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 8</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M-F </td>
+   <td style="text-align:left;"> 3/6-3/10 </td>
+   <td style="text-align:left;"> *****NO CLASS - SPRING BREAK***** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 9</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 13-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Pedoturbation/Macrobiology (2-7) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 7. Soil Biological Processes (2) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 15-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Redox (2-8) </td>
+   <td style="text-align:left;"> pp 201-206, 213-218 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 16-Mar </td>
+   <td style="text-align:left;"> Week 9 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 17-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 10</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 20-Mar </td>
+   <td style="text-align:left;"> *****EXAM #2***** Unit 2 Opens 12:00PM Su 3/19, due by 11:59PM on M 3/20 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 8. Mineral Weathering </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 22-Mar </td>
+   <td style="text-align:left;"> Soil Genesis and Soil Forming Factors (3-1 &amp; 3-2) </td>
+   <td style="text-align:left;"> pp 27-43, 51-52 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 23-Mar </td>
+   <td style="text-align:left;"> Week 10 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 24-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 11</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 27-Mar </td>
+   <td style="text-align:left;"> Soil Genesis - Climate and Organisms (3-3) </td>
+   <td style="text-align:left;"> pp 43-51 </td>
+   <td style="text-align:left;"> 9. Soil Forming Factors </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 29-Mar </td>
+   <td style="text-align:left;"> Soil Horizons (3-4) </td>
+   <td style="text-align:left;"> pp 52-57 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 30-Mar </td>
+   <td style="text-align:left;"> Week 11 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 31-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 12</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 3-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#1, 3-5) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;"> 10. Soil Classification </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 5-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#2, 3-6) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 6-Apr </td>
+   <td style="text-align:left;"> Week 12 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 7-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 13</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 10-Apr </td>
+   <td style="text-align:left;"> *****EXAM #3***** Unit 3 Opens 12:00PM Su 4/9, due by 11:59PM on M 4/10 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 11. Soil Survey </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 12-Apr </td>
+   <td style="text-align:left;"> Soil Survey (#1, 4-1 &amp; #2, 4-2) </td>
+   <td style="text-align:left;"> pp 89-93 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 13-Apr </td>
+   <td style="text-align:left;"> Week 13 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 14-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 14</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 17-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#1, 4-3) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;"> 12. Soil Fertility, Soil Chemical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 19-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#2, 4-4) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 20-Apr </td>
+   <td style="text-align:left;"> Week 14 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 21-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas), LUR Draft Due Friday 4/21 @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 15</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 24-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Tillage (4-5) </td>
+   <td style="text-align:left;"> pp 110-114 </td>
+   <td style="text-align:left;"> 13. Soil Physical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 26-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Erosion (4-6) </td>
+   <td style="text-align:left;"> pp 499-533 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 28-Apr </td>
+   <td style="text-align:left;"> Week 15 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 29-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="3"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 16</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 1-May </td>
+   <td style="text-align:left;"> Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8) + Live Thank You Session </td>
+   <td style="text-align:left;"> pp 368-371, 545-551 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Tu-F </td>
+   <td style="text-align:left;"> 5/2-5/5 </td>
+   <td style="text-align:left;"> *****EXAM #4***** Unit 4 Opens 12:00PM Tu 5/2, due by 11:59PM on F 5/5 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Su </td>
+   <td style="text-align:left;"> 7-May </td>
+   <td style="text-align:left;"> Final LUR Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table></div>
+
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"class-schedule.csv"</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">select</span>(class.schedule, <span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(class.schedule) <span class="sc">%&gt;%</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kable_styling</span>(<span class="st">"striped"</span>, <span class="at">full_width =</span> F, <span class="at">fixed_thead =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 1"</span>, <span class="dv">1</span>,<span class="dv">3</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 2"</span>, <span class="dv">4</span>,<span class="dv">7</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 3"</span>, <span class="dv">8</span>,<span class="dv">11</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 4"</span>, <span class="dv">12</span>,<span class="dv">15</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 5"</span>, <span class="dv">16</span>,<span class="dv">19</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 6"</span>, <span class="dv">20</span>,<span class="dv">23</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 7"</span>, <span class="dv">24</span>,<span class="dv">27</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 8"</span>, <span class="dv">28</span>,<span class="dv">28</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 9"</span>, <span class="dv">29</span>,<span class="dv">32</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 10"</span>, <span class="dv">33</span>,<span class="dv">36</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 11"</span>, <span class="dv">37</span>,<span class="dv">40</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 12"</span>, <span class="dv">41</span>,<span class="dv">44</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 13"</span>, <span class="dv">45</span>,<span class="dv">48</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 14"</span>, <span class="dv">49</span>,<span class="dv">52</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 15"</span>, <span class="dv">53</span>,<span class="dv">56</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pack_rows</span>(<span class="st">"Week 16"</span>, <span class="dv">57</span>,<span class="dv">59</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> DAY </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> DATE </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> X.TOPIC.FOCUS. </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> SUGGESTED.READINGS..1. </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> LAB.UNIT </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr grouplength="3"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 1</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 18-Jan </td>
+   <td style="text-align:left;"> Introduction and Overview, Soil Diversity (1-1) </td>
+   <td style="text-align:left;"> pp 3-14 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 19-Jan </td>
+   <td style="text-align:left;"> Week 1 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 20-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 2</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 23-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - Color and Structure (1-3) </td>
+   <td style="text-align:left;"> pp 96-109 </td>
+   <td style="text-align:left;"> 1. Soil Properties - Texture, Color and Structure </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 25-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - By Weight/Volume (1-4) </td>
+   <td style="text-align:left;"> pp 114-123, 141-143 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 26-Jan </td>
+   <td style="text-align:left;"> Week 2 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 27-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 3</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 30-Jan </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Elemental Composition (1-5) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 2. Soil Properties - Clays and Mineralogy </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 1-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Mineralogy </td>
+   <td style="text-align:left;"> pp 235-247, 263-265 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 2-Feb </td>
+   <td style="text-align:left;"> Week 3 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 3-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 4</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 6-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Organic Matter (1-7) </td>
+   <td style="text-align:left;"> pp 361-378, 383-387 </td>
+   <td style="text-align:left;"> 3. Soil Properties - Bulk Density, Porosity, Organic Matter </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 8-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - pH (1-8) </td>
+   <td style="text-align:left;"> pp 270-311 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 9-Feb </td>
+   <td style="text-align:left;"> Week 4 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 10-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 5</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 13-Feb </td>
+   <td style="text-align:left;"> *****EXAM #1***** Unit 1 Opens 12:00PM Su 2/12, due by 11:59PM on M 2/13 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4. Ion Exchange, CEC, pH </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 15-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Ion Exchange and CEC (#1, 2-1 &amp; #2, 2-2) </td>
+   <td style="text-align:left;"> pp 248-260 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 16-Feb </td>
+   <td style="text-align:left;"> Week 5 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 17-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 6</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 20-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#1, 2-3) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;"> 5. Soil Water </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 22-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#2, 2-4) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 24-Feb </td>
+   <td style="text-align:left;"> Week 6 Discussion; LUR Property and Client Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 25-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 7</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 27-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Energy and Microorganisms (2-5) </td>
+   <td style="text-align:left;"> pp 322-351 </td>
+   <td style="text-align:left;"> 6. Soil Biological Processes (1) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 1-Mar </td>
+   <td style="text-align:left;"> Soil Processes - C and N Cycles (2-6) </td>
+   <td style="text-align:left;"> pp 396-412 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 2-Mar </td>
+   <td style="text-align:left;"> Week 7 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 3-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="1"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 8</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M-F </td>
+   <td style="text-align:left;"> 3/6-3/10 </td>
+   <td style="text-align:left;"> *****NO CLASS - SPRING BREAK***** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 9</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 13-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Pedoturbation/Macrobiology (2-7) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 7. Soil Biological Processes (2) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 15-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Redox (2-8) </td>
+   <td style="text-align:left;"> pp 201-206, 213-218 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 16-Mar </td>
+   <td style="text-align:left;"> Week 9 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 17-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 10</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 20-Mar </td>
+   <td style="text-align:left;"> *****EXAM #2***** Unit 2 Opens 12:00PM Su 3/19, due by 11:59PM on M 3/20 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 8. Mineral Weathering </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 22-Mar </td>
+   <td style="text-align:left;"> Soil Genesis and Soil Forming Factors (3-1 &amp; 3-2) </td>
+   <td style="text-align:left;"> pp 27-43, 51-52 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 23-Mar </td>
+   <td style="text-align:left;"> Week 10 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 24-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 11</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 27-Mar </td>
+   <td style="text-align:left;"> Soil Genesis - Climate and Organisms (3-3) </td>
+   <td style="text-align:left;"> pp 43-51 </td>
+   <td style="text-align:left;"> 9. Soil Forming Factors </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 29-Mar </td>
+   <td style="text-align:left;"> Soil Horizons (3-4) </td>
+   <td style="text-align:left;"> pp 52-57 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 30-Mar </td>
+   <td style="text-align:left;"> Week 11 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 31-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 12</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 3-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#1, 3-5) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;"> 10. Soil Classification </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 5-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#2, 3-6) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 6-Apr </td>
+   <td style="text-align:left;"> Week 12 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 7-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 13</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 10-Apr </td>
+   <td style="text-align:left;"> *****EXAM #3***** Unit 3 Opens 12:00PM Su 4/9, due by 11:59PM on M 4/10 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 11. Soil Survey </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 12-Apr </td>
+   <td style="text-align:left;"> Soil Survey (#1, 4-1 &amp; #2, 4-2) </td>
+   <td style="text-align:left;"> pp 89-93 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 13-Apr </td>
+   <td style="text-align:left;"> Week 13 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 14-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 14</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 17-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#1, 4-3) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;"> 12. Soil Fertility, Soil Chemical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 19-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#2, 4-4) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 20-Apr </td>
+   <td style="text-align:left;"> Week 14 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 21-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas), LUR Draft Due Friday 4/21 @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="4"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 15</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 24-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Tillage (4-5) </td>
+   <td style="text-align:left;"> pp 110-114 </td>
+   <td style="text-align:left;"> 13. Soil Physical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> W </td>
+   <td style="text-align:left;"> 26-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Erosion (4-6) </td>
+   <td style="text-align:left;"> pp 499-533 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Th </td>
+   <td style="text-align:left;"> 28-Apr </td>
+   <td style="text-align:left;"> Week 15 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> F </td>
+   <td style="text-align:left;"> 29-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr grouplength="3"><td colspan="5" style="border-bottom: 1px solid;"><strong>Week 16</strong></td></tr>
+<tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> M </td>
+   <td style="text-align:left;"> 1-May </td>
+   <td style="text-align:left;"> Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8) + Live Thank You Session </td>
+   <td style="text-align:left;"> pp 368-371, 545-551 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Tu-F </td>
+   <td style="text-align:left;"> 5/2-5/5 </td>
+   <td style="text-align:left;"> *****EXAM #4***** Unit 4 Opens 12:00PM Tu 5/2, due by 11:59PM on F 5/5 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;padding-left: 2em;" indentlevel="1"> Su </td>
+   <td style="text-align:left;"> 7-May </td>
+   <td style="text-align:left;"> Final LUR Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"class-schedule.csv"</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">#class.schedule = select(class.schedule, -1)</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(class.schedule) <span class="sc">%&gt;%</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kable_styling</span>(<span class="st">"striped"</span>, <span class="at">full_width =</span> F, <span class="at">fixed_thead =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">bold =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">collapse_rows</span>(<span class="at">columns =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>, <span class="at">valign =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> WEEK </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> DAY </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> DATE </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> X.TOPIC.FOCUS. </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> SUGGESTED.READINGS..1. </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> LAB.UNIT </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 18-Jan </td>
+   <td style="text-align:left;"> Introduction and Overview, Soil Diversity (1-1) </td>
+   <td style="text-align:left;"> pp 3-14 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 19-Jan </td>
+   <td style="text-align:left;"> Week 1 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 1 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 20-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 23-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - Color and Structure (1-3) </td>
+   <td style="text-align:left;"> pp 96-109 </td>
+   <td style="text-align:left;"> 1. Soil Properties - Texture, Color and Structure </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 25-Jan </td>
+   <td style="text-align:left;"> Soil Physical Properties - By Weight/Volume (1-4) </td>
+   <td style="text-align:left;"> pp 114-123, 141-143 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 26-Jan </td>
+   <td style="text-align:left;"> Week 2 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 2 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 27-Jan </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 30-Jan </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Elemental Composition (1-5) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 2. Soil Properties - Clays and Mineralogy </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 1-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Mineralogy </td>
+   <td style="text-align:left;"> pp 235-247, 263-265 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 2-Feb </td>
+   <td style="text-align:left;"> Week 3 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 3 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 3-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 6-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - Organic Matter (1-7) </td>
+   <td style="text-align:left;"> pp 361-378, 383-387 </td>
+   <td style="text-align:left;"> 3. Soil Properties - Bulk Density, Porosity, Organic Matter </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 8-Feb </td>
+   <td style="text-align:left;"> Soil Chemical Properties - pH (1-8) </td>
+   <td style="text-align:left;"> pp 270-311 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 9-Feb </td>
+   <td style="text-align:left;"> Week 4 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 4 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 10-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 13-Feb </td>
+   <td style="text-align:left;"> *****EXAM #1***** Unit 1 Opens 12:00PM Su 2/12, due by 11:59PM on M 2/13 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4. Ion Exchange, CEC, pH </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 15-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Ion Exchange and CEC (#1, 2-1 &amp; #2, 2-2) </td>
+   <td style="text-align:left;"> pp 248-260 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 16-Feb </td>
+   <td style="text-align:left;"> Week 5 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 5 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 17-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 20-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#1, 2-3) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;"> 5. Soil Water </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 22-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Water Movement (#2, 2-4) </td>
+   <td style="text-align:left;"> pp 132-163, 165-199 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 24-Feb </td>
+   <td style="text-align:left;"> Week 6 Discussion; LUR Property and Client Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 6 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 25-Feb </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 27-Feb </td>
+   <td style="text-align:left;"> Soil Processes - Energy and Microorganisms (2-5) </td>
+   <td style="text-align:left;"> pp 322-351 </td>
+   <td style="text-align:left;"> 6. Soil Biological Processes (1) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 1-Mar </td>
+   <td style="text-align:left;"> Soil Processes - C and N Cycles (2-6) </td>
+   <td style="text-align:left;"> pp 396-412 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 2-Mar </td>
+   <td style="text-align:left;"> Week 7 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 7 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 3-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 8 </td>
+   <td style="text-align:left;"> M-F </td>
+   <td style="text-align:left;"> 3/6-3/10 </td>
+   <td style="text-align:left;"> *****NO CLASS - SPRING BREAK***** </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 13-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Pedoturbation/Macrobiology (2-7) </td>
+   <td style="text-align:left;"> Canvas </td>
+   <td style="text-align:left;"> 7. Soil Biological Processes (2) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 15-Mar </td>
+   <td style="text-align:left;"> Soil Processes - Redox (2-8) </td>
+   <td style="text-align:left;"> pp 201-206, 213-218 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 16-Mar </td>
+   <td style="text-align:left;"> Week 9 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 9 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 17-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 20-Mar </td>
+   <td style="text-align:left;"> *****EXAM #2***** Unit 2 Opens 12:00PM Su 3/19, due by 11:59PM on M 3/20 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 8. Mineral Weathering </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 22-Mar </td>
+   <td style="text-align:left;"> Soil Genesis and Soil Forming Factors (3-1 &amp; 3-2) </td>
+   <td style="text-align:left;"> pp 27-43, 51-52 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 23-Mar </td>
+   <td style="text-align:left;"> Week 10 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 10 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 24-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 27-Mar </td>
+   <td style="text-align:left;"> Soil Genesis - Climate and Organisms (3-3) </td>
+   <td style="text-align:left;"> pp 43-51 </td>
+   <td style="text-align:left;"> 9. Soil Forming Factors </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 29-Mar </td>
+   <td style="text-align:left;"> Soil Horizons (3-4) </td>
+   <td style="text-align:left;"> pp 52-57 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 30-Mar </td>
+   <td style="text-align:left;"> Week 11 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 11 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 31-Mar </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 3-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#1, 3-5) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;"> 10. Soil Classification </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 5-Apr </td>
+   <td style="text-align:left;"> Soil Taxonomy (#2, 3-6) </td>
+   <td style="text-align:left;"> pp 58-95 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 6-Apr </td>
+   <td style="text-align:left;"> Week 12 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 12 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 7-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 10-Apr </td>
+   <td style="text-align:left;"> *****EXAM #3***** Unit 3 Opens 12:00PM Su 4/9, due by 11:59PM on M 4/10 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 11. Soil Survey </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 12-Apr </td>
+   <td style="text-align:left;"> Soil Survey (#1, 4-1 &amp; #2, 4-2) </td>
+   <td style="text-align:left;"> pp 89-93 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 13-Apr </td>
+   <td style="text-align:left;"> Week 13 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 13 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 14-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 17-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#1, 4-3) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;"> 12. Soil Fertility, Soil Chemical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 19-Apr </td>
+   <td style="text-align:left;"> Nutrient Management and Fertility (#2, 4-4) </td>
+   <td style="text-align:left;"> pp 420-442, 455-496 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 20-Apr </td>
+   <td style="text-align:left;"> Week 14 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 14 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 21-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas), LUR Draft Due Friday 4/21 @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 24-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Tillage (4-5) </td>
+   <td style="text-align:left;"> pp 110-114 </td>
+   <td style="text-align:left;"> 13. Soil Physical Management </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> W </td>
+   <td style="text-align:left;"> 26-Apr </td>
+   <td style="text-align:left;"> Soil Physical Management - Erosion (4-6) </td>
+   <td style="text-align:left;"> pp 499-533 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> Th </td>
+   <td style="text-align:left;"> 28-Apr </td>
+   <td style="text-align:left;"> Week 15 Discussion </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 15 </td>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:left;"> 29-Apr </td>
+   <td style="text-align:left;"> Weekly Quiz Part II Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> M </td>
+   <td style="text-align:left;"> 1-May </td>
+   <td style="text-align:left;"> Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8) + Live Thank You Session </td>
+   <td style="text-align:left;"> pp 368-371, 545-551 </td>
+   <td style="text-align:left;"> No Lab </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> Tu-F </td>
+   <td style="text-align:left;"> 5/2-5/5 </td>
+   <td style="text-align:left;"> *****EXAM #4***** Unit 4 Opens 12:00PM Tu 5/2, due by 11:59PM on F 5/5 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Week 16 </td>
+   <td style="text-align:left;"> Su </td>
+   <td style="text-align:left;"> 7-May </td>
+   <td style="text-align:left;"> Final LUR Due @ 11:59PM (Canvas) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(htmlTable)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"class-schedule.csv"</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>class.schedule <span class="sc">%&gt;%</span> </span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span><span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="fu">addHtmlTableStyle</span>(<span class="at">col.rgroup =</span> <span class="fu">c</span>(<span class="st">"none"</span>, <span class="st">"#F7F7F7"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="fu">htmlTable</span>(<span class="at">rgroup =</span> <span class="fu">c</span>(<span class="fu">paste</span>(<span class="st">"Week"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">16</span>)),</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>          <span class="at">n.rgroup =</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>),</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>          <span class="at">tspanner =</span> <span class="fu">paste</span>(<span class="st">"Week"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">16</span>),</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>          <span class="at">n.tspanner =</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><th style="border-bottom: 1px solid grey; border-top: 2px solid grey;"></th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">DAY</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">DATE</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">X.TOPIC.FOCUS.</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">SUGGESTED.READINGS..1.</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">LAB.UNIT</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="6" style="font-weight: 900; text-align: left;">Week 1</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 1</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;1</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">18-Jan</td>
+<td style="text-align: center;">Introduction and Overview, Soil Diversity (1-1)</td>
+<td style="text-align: center;">pp 3-14</td>
+<td style="text-align: center;">No Lab</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;2</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">19-Jan</td>
+<td style="text-align: center;">Week 1 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;3</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">20-Jan</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 2</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 2</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;4</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">23-Jan</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Physical Properties - Color and Structure (1-3)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 96-109</td>
+<td style="background-color: #f7f7f7; text-align: center;">1. Soil Properties - Texture, Color and Structure</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;5</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">25-Jan</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Physical Properties - By Weight/Volume (1-4)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 114-123, 141-143</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;6</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">26-Jan</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 2 Discussion</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;7</td>
+<td style="background-color: #f7f7f7; text-align: center;">F</td>
+<td style="background-color: #f7f7f7; text-align: center;">27-Jan</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 3</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 3</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;8</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">30-Jan</td>
+<td style="text-align: center;">Soil Chemical Properties - Elemental Composition (1-5)</td>
+<td style="text-align: center;">Canvas</td>
+<td style="text-align: center;">2. Soil Properties - Clays and Mineralogy</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;9</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">1-Feb</td>
+<td style="text-align: center;">Soil Chemical Properties - Mineralogy </td>
+<td style="text-align: center;">pp 235-247, 263-265</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;10</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">2-Feb</td>
+<td style="text-align: center;">Week 3 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;11</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">3-Feb</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 4</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 4</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;12</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">6-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Chemical Properties - Organic Matter (1-7)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 361-378, 383-387</td>
+<td style="background-color: #f7f7f7; text-align: center;">3. Soil Properties - Bulk Density, Porosity, Organic Matter</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;13</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">8-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Chemical Properties - pH (1-8)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 270-311</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;14</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">9-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 4 Discussion</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;15</td>
+<td style="background-color: #f7f7f7; text-align: center;">F</td>
+<td style="background-color: #f7f7f7; text-align: center;">10-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 5</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 5</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;16</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">13-Feb</td>
+<td style="text-align: center;">*****EXAM #1***** Unit 1 Opens 12:00PM Su 2/12, due by 11:59PM on M 2/13</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">4. Ion Exchange, CEC, pH</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;17</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">15-Feb</td>
+<td style="text-align: center;">Soil Processes - Ion Exchange and CEC (#1, 2-1 &amp; #2, 2-2)</td>
+<td style="text-align: center;">pp 248-260</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;18</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">16-Feb</td>
+<td style="text-align: center;">Week 5 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;19</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">17-Feb</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 6</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 6</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;20</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">20-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Processes - Water Movement (#1, 2-3)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 132-163, 165-199</td>
+<td style="background-color: #f7f7f7; text-align: center;">5. Soil Water</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;21</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">22-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Processes - Water Movement (#2, 2-4)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 132-163, 165-199</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;22</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">24-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 6 Discussion; LUR Property and Client Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;23</td>
+<td style="background-color: #f7f7f7; text-align: center;">F</td>
+<td style="background-color: #f7f7f7; text-align: center;">25-Feb</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 7</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 7</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;24</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">27-Feb</td>
+<td style="text-align: center;">Soil Processes - Energy and Microorganisms (2-5)</td>
+<td style="text-align: center;">pp 322-351</td>
+<td style="text-align: center;">6. Soil Biological Processes (1)</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;25</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">1-Mar</td>
+<td style="text-align: center;">Soil Processes - C and N Cycles (2-6)</td>
+<td style="text-align: center;">pp 396-412</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;26</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">2-Mar</td>
+<td style="text-align: center;">Week 7 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;27</td>
+<td style="text-align: center;">F </td>
+<td style="text-align: center;">3-Mar</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 8</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 8</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;28</td>
+<td style="background-color: #f7f7f7; text-align: center;">M-F</td>
+<td style="background-color: #f7f7f7; text-align: center;">3/6-3/10</td>
+<td style="background-color: #f7f7f7; text-align: center;">*****NO CLASS - SPRING BREAK*****</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 9</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 9</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;29</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">13-Mar</td>
+<td style="text-align: center;">Soil Processes - Pedoturbation/Macrobiology (2-7)</td>
+<td style="text-align: center;">Canvas</td>
+<td style="text-align: center;">7. Soil Biological Processes (2)</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;30</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">15-Mar</td>
+<td style="text-align: center;">Soil Processes - Redox (2-8)</td>
+<td style="text-align: center;">pp 201-206, 213-218</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;31</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">16-Mar</td>
+<td style="text-align: center;">Week 9 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;32</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">17-Mar</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 10</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 10</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;33</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">20-Mar</td>
+<td style="background-color: #f7f7f7; text-align: center;">*****EXAM #2***** Unit 2 Opens 12:00PM Su 3/19, due by 11:59PM on M 3/20</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;">8. Mineral Weathering</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;34</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">22-Mar</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Genesis and Soil Forming Factors (3-1 &amp; 3-2)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 27-43, 51-52</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;35</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">23-Mar</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 10 Discussion</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;36</td>
+<td style="background-color: #f7f7f7; text-align: center;">F</td>
+<td style="background-color: #f7f7f7; text-align: center;">24-Mar</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 11</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 11</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;37</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">27-Mar</td>
+<td style="text-align: center;">Soil Genesis - Climate and Organisms (3-3) </td>
+<td style="text-align: center;">pp 43-51</td>
+<td style="text-align: center;">9. Soil Forming Factors</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;38</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">29-Mar</td>
+<td style="text-align: center;">Soil Horizons (3-4)</td>
+<td style="text-align: center;">pp 52-57</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;39</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">30-Mar</td>
+<td style="text-align: center;">Week 11 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;40</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">31-Mar</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 12</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 12</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;41</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">3-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Taxonomy (#1, 3-5)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 58-95</td>
+<td style="background-color: #f7f7f7; text-align: center;">10. Soil Classification</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;42</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">5-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Taxonomy (#2, 3-6)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 58-95</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;43</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">6-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 12 Discussion</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;44</td>
+<td style="background-color: #f7f7f7; text-align: center;">F </td>
+<td style="background-color: #f7f7f7; text-align: center;">7-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 13</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 13</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;45</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">10-Apr</td>
+<td style="text-align: center;">*****EXAM #3***** Unit 3 Opens 12:00PM Su 4/9, due by 11:59PM on M 4/10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">11. Soil Survey</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;46</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">12-Apr</td>
+<td style="text-align: center;">Soil Survey (#1, 4-1 &amp; #2, 4-2)</td>
+<td style="text-align: center;">pp 89-93</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;47</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">13-Apr</td>
+<td style="text-align: center;">Week 13 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;48</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">14-Apr</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 14</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 14</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;49</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">17-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Nutrient Management and Fertility (#1, 4-3)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 420-442, 455-496</td>
+<td style="background-color: #f7f7f7; text-align: center;">12. Soil Fertility, Soil Chemical Management</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;50</td>
+<td style="background-color: #f7f7f7; text-align: center;">W</td>
+<td style="background-color: #f7f7f7; text-align: center;">19-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Nutrient Management and Fertility (#2, 4-4)</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 420-442, 455-496</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;51</td>
+<td style="background-color: #f7f7f7; text-align: center;">Th</td>
+<td style="background-color: #f7f7f7; text-align: center;">20-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Week 14 Discussion</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;52</td>
+<td style="background-color: #f7f7f7; text-align: center;">F</td>
+<td style="background-color: #f7f7f7; text-align: center;">21-Apr</td>
+<td style="background-color: #f7f7f7; text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas), LUR Draft Due Friday 4/21 @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 15</td></tr> 
+<tr><td colspan="6" style="font-weight: 900;">Week 15</td></tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;53</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">24-Apr</td>
+<td style="text-align: center;">Soil Physical Management - Tillage (4-5)</td>
+<td style="text-align: center;">pp 110-114</td>
+<td style="text-align: center;">13. Soil Physical Management</td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;54</td>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">26-Apr</td>
+<td style="text-align: center;">Soil Physical Management - Erosion (4-6)</td>
+<td style="text-align: center;">pp 499-533</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;55</td>
+<td style="text-align: center;">Th</td>
+<td style="text-align: center;">28-Apr</td>
+<td style="text-align: center;">Week 15 Discussion</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">&nbsp;&nbsp;56</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">29-Apr</td>
+<td style="text-align: center;">Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr><td colspan="6" style="font-weight: 900; text-align: left; border-top: 1px solid #BEBEBE;">Week 16</td></tr> 
+<tr><td colspan="6" style="font-weight: 900; background-color: #f7f7f7;">Week 16</td></tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;57</td>
+<td style="background-color: #f7f7f7; text-align: center;">M</td>
+<td style="background-color: #f7f7f7; text-align: center;">1-May</td>
+<td style="background-color: #f7f7f7; text-align: center;">Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8) + Live Thank You Session</td>
+<td style="background-color: #f7f7f7; text-align: center;">pp 368-371, 545-551</td>
+<td style="background-color: #f7f7f7; text-align: center;">No Lab</td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; text-align: left;">&nbsp;&nbsp;58</td>
+<td style="background-color: #f7f7f7; text-align: center;">Tu-F</td>
+<td style="background-color: #f7f7f7; text-align: center;">5/2-5/5</td>
+<td style="background-color: #f7f7f7; text-align: center;">*****EXAM #4***** Unit 4 Opens 12:00PM Tu 5/2, due by 11:59PM on F 5/5</td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+<td style="background-color: #f7f7f7; text-align: center;"></td>
+</tr>
+<tr style="background-color: #f7f7f7;">
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: left;">&nbsp;&nbsp;59</td>
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: center;">Su</td>
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: center;">7-May</td>
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: center;">Final LUR Due @ 11:59PM (Canvas)</td>
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: center;"></td>
+<td style="background-color: #f7f7f7; border-bottom: 2px solid grey; text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Week</strong></th>
+<th><strong>Day</strong></th>
+<th><strong>Date</strong></th>
+<th><strong>Topic Focus</strong></th>
+<th><strong>Suggested Readings</strong>and Weil 4th Ed.</th>
+<th><strong>Lab Unit</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01</td>
+<td>M</td>
+<td>1/18</td>
+<td>Introduction and Overview, Soil Diversity (1-1)</td>
+<td>pp 3-14</td>
+<td>No Lab</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>W</td>
+<td>1/19</td>
+<td>Soil Physical Properties - Components &amp; Texture (1-2)</td>
+<td>pp 15-21</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Th</td>
+<td>1/20</td>
+<td><em>Week 1 Discussion</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>F</td>
+<td>1/21</td>
+<td>*Weekly Quiz Part II Due @ 11:59PM (Canvas)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
