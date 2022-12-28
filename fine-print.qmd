@@ -12,7 +12,7 @@
 
 ## Attendance Policy
 
-Legitimate discussion absences must be arranged in advance in order to receive full points for make-up work. Make-up work policies for unexcused absences are described in detail on page 6. I am also more than willing to work with you for legitimate excuses as described in detail [here].
+Legitimate discussion absences must be arranged in advance in order to receive full points for make-up work. Make-up work policies for unexcused absences are described in detail on page 6. I am also more than willing to work with you for legitimate excuses as described in @sec-absences.
 
 ## Student Conduct Code
 
@@ -30,9 +30,9 @@ Both lecture and discussion are designed to be active, technology-assisted envir
 
 As an instructor, I am committed to creating a learning environment where everyone feels safe, honored, and respected.
 
-The Department of Soil, Water, and Climate (SWAC), *of which our teaching team is a part*, includes faculty, staff, and students who are committed to understanding the earth, environment, and atmosphere and how we interact with our world. We are an interdisciplinary group; we take pride in the fact that our backgrounds and perspectives vary. We embrace the diverse experiences of individuals, communities, cultures, and nations and understand that those experiences enrich and inform our department. We recognize that science and culture are inseparable and are both crucial parts of our work. The SWAC Diversity, Equity and Inclusivity (DEI) statement can be accessed [here](https://swac.umn.edu/about-us/diversity-equity-inclusion). 
+The Department of Soil, Water, and Climate (SWAC), *of which our teaching team is a part*, includes faculty, staff, and students who are committed to understanding the earth, environment, and atmosphere and how we interact with our world. We are an interdisciplinary group; we take pride in the fact that our backgrounds and perspectives vary. We embrace the diverse experiences of individuals, communities, cultures, and nations and understand that those experiences enrich and inform our department. We recognize that science and culture are inseparable and are both crucial parts of our work. The SWAC Diversity, Equity and Inclusivity (DEI) statement can be accessed [here](https://swac.umn.edu/about-us/diversity-equity-inclusion).
 
-Additionally, the College of Food, Agriculture, and Natural Resource Sciences (CFANS) is committed to prioritizing diversity, equity and inclusion (DEI) work across the College, and there are many DEI resources available through the [CFANS Office for Diversity and Inclusion](https://cfans.umn.edu/about/diversity-inclusion/odi-team), including the [CFANS Diversity, Equity & Inclusion Strategic Plan](https://cfans.umn.edu/about/diversity-inclusion/dei-strategic-plan). 
+Additionally, the College of Food, Agriculture, and Natural Resource Sciences (CFANS) is committed to prioritizing diversity, equity and inclusion (DEI) work across the College, and there are many DEI resources available through the [CFANS Office for Diversity and Inclusion](https://cfans.umn.edu/about/diversity-inclusion/odi-team), including the [CFANS Diversity, Equity & Inclusion Strategic Plan](https://cfans.umn.edu/about/diversity-inclusion/dei-strategic-plan).
 
 The University provides equal access to and opportunity in its programs and facilities, without regard to race, color, creed, religion, national origin, gender, age, marital status, disability, public assistance status, veteran status, sexual orientation, gender identity, or gender expression in accordance with the [Board of Regents Equity, Diversity, Equal Opportunity, and Affirmative Action Policy](https://regents.umn.edu/sites/regents.umn.edu/files/2019-09/policy_equity_diversity_equal_opportunity_and_affirmative_action.pdf).
 
@@ -44,7 +44,7 @@ The University of Minnesota is committed to providing equitable access to learni
 
 Animals are not permitted in class unless they are certified service animals or emotional support animals approved through the [Disability Resource Center](https://disability.umn.edu).
 
-## Mental Health and Stress Management 
+## Mental Health and Stress Management
 
 As a student you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance and may reduce your ability to participate in daily activities. University of Minnesota services are available to assist you. In addition to campus-wide [mental health resources](https://safe-campus.umn.edu/mental-health), the [CFANS Wellness Navigator, Rose Simon](https://cfans.umn.edu/academics/academic-advisors/rose-simon), is available to meet the needs of students as it relates to personal well-being for any reason. If you are interested in meeting with Rose, her webpage shares a bit more about the ways that you can [get connected](https://cfans.umn.edu/academics/wellbeing).
 
@@ -58,7 +58,7 @@ Taking notes is a means of recording information but more importantly of persona
 
 ## Scholastic Dishonesty
 
-ou are expected to do your own academic work and cite sources as necessary. Failing to do so is scholastic dishonesty. Scholastic dishonesty means plagiarizing; cheating on assignments or examinations; engaging in unauthorized collaboration on academic work; taking, acquiring, or using test materials without faculty permission; submitting false or incomplete records of academic achievement; acting alone or in cooperation with another to falsify records or to obtain dishonestly grades, honors, awards, or professional endorsement; altering, forging, or misusing a University academic record; or fabricating or falsifying data, research procedures, or data analysis. (see Student Conduct Code: link on page 4 of this syllabus). If it is determined that a student has cheated, he or she may be given an "F" or an "N" for the course, and may face [additional sanctions](https://communitystandards.umn.edu/scholastic-dishonesty-sanctioning-guidelines) from the University. 
+ou are expected to do your own academic work and cite sources as necessary. Failing to do so is scholastic dishonesty. Scholastic dishonesty means plagiarizing; cheating on assignments or examinations; engaging in unauthorized collaboration on academic work; taking, acquiring, or using test materials without faculty permission; submitting false or incomplete records of academic achievement; acting alone or in cooperation with another to falsify records or to obtain dishonestly grades, honors, awards, or professional endorsement; altering, forging, or misusing a University academic record; or fabricating or falsifying data, research procedures, or data analysis. (see Student Conduct Code: link on page 4 of this syllabus). If it is determined that a student has cheated, he or she may be given an "F" or an "N" for the course, and may face [additional sanctions](https://communitystandards.umn.edu/scholastic-dishonesty-sanctioning-guidelines) from the University.
 
 The Office for Community Standards provides a wealth of information on the Student Conduct Code and [Scholastic Dishonesty](https://communitystandards.umn.edu/report-incidents/reporting-scholastic-dishonesty). If you have additional questions, please clarify with your instructor for the course. Your instructor can respond to your specific questions regarding what would constitute scholastic dishonesty in the context of a particular class-e.g., whether collaboration on assignments is permitted, requirements and methods for citing sources, if electronic aids are permitted or prohibited during an exam.
 
@@ -68,15 +68,4 @@ We contine to live in extraordinary times that continue to challenge all of us i
 
 ## Financial Support
 
-If you are in need of emergency financial support, the University has an [emergency funds program](https://onestop.umn.edu/finances/types-financial-aid/student-emergency-funds) which allows you to request funds with a typical range of $50-$1,000.
-
-
-
-
-
-
-
-
-
-
-
+If you are in need of emergency financial support, the University has an [emergency funds program](https://onestop.umn.edu/finances/types-financial-aid/student-emergency-funds) which allows you to request funds with a typical range of \$50-\$1,000.
