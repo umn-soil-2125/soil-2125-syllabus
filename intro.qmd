@@ -19,6 +19,6 @@ Francis Hole, a famous soil scientist, was well known for saying that all humans
 
 *Lectures:* Most weeks, lectures will meet on Monday and Wednesdays only. However, we will have lecture on the following 4 Fridays: January 25th, February 22nd, March 8th, and April 19th.
 
-*Laboratory* Plan on spending 1-2 hrs each week in lab. The lab has open hours (see @sec-labhours) [open hours](index.qmd##LabOpen%20Times) and is self-paced so you can return as often as needed to complete the lab exercises (Laboratory TA's will be in the lab during all open hours to help you). Make sure you sign in and out and complete the pre-lab checklist using the posted QR code at the TA desk.
+*Laboratory:* Plan on spending 1-2 hrs each week in lab. The lab has open hours (see @sec-labhours) [open hours](index.qmd##LabOpen%20Times) and is self-paced so you can return as often as needed to complete the lab exercises (Laboratory TA's will be in the lab during all open hours to help you). Make sure you sign in and out and complete the pre-lab checklist using the posted QR code at the TA desk.
 
-*Exams* Exams are online through Canvas. There are three unit exams and one final exam.
+*Exams:* Exams are online through Canvas. There are three unit exams and one final exam.

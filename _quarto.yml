@@ -6,9 +6,9 @@ project:
 book:
   title: "Basic Soil Science (SOIL 2125) Syllabus - Spring 2023"
   author: "Nic Jelinski"
-  date: "28DEC2022"
+  date: "11JAN2023"
   cover-image: "soil-2125-03.png"
-  number: "0.1"
+  number: "1.0"
   #navbar: 
     #right: 
       #- icon: cc-circle
@@ -20,6 +20,7 @@ book:
     - intro.qmd
     - course-resources.qmd
     - assignments-points-grades.qmd
+    - poll-everywhere.qmd
     - makeup-policies.qmd
     - fine-print.qmd
     - class-schedule.qmd
