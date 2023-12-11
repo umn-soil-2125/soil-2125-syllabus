@@ -18,7 +18,7 @@
 
 These absences should be pre-coordinated with the instructor as soon as they are known - in emergency or unexpected situation, communication may occur after the fact. **All other absences are considered unexcused absences**
 
-## Makeup Policies for Unexcused Absences
+## Makeup Policies for Unexcused Absences {#sec-unexcusedabsences}
 
 *Pre-Discussion Quiz:* If you miss a pre-discussion quiz you will receive a 2 pt deduction. You can still complete Part I of the quiz for 3/5 pts, however! Your completed pre-discussion quiz must be turned in by 11:59PM on Wednesday of the following week to receive these makeup points. If you do not complete your make-up within 1 week of the original due date, you will receive a 0 for the assignment.
 
@@ -26,6 +26,4 @@ These absences should be pre-coordinated with the instructor as soon as they are
 
 *Discussion Collaborative Exercises:* Discussion exercises are team activities. If you miss discussion you will receive a 2 pt deduction. You can still complete the exercise for 4/6 pts, however. Your completed exercise must be turned in by the beginning of discussion the following week to receive a grade. If you do not complete your make-up within 1 week, you will receive a 0 for the assignment.
 
-*Land-Use Reports:* Deduct 11% for every 24 hour period late.
-
-*Exams:* No exam make-ups for unexcused absences. Alternate exam times for excused absences will be pre-coordinated with the instructor.
+*Soil Property and Land Use Reports:* Deduct 10% for every 24 hour period late.

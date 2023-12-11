@@ -1,36 +1,32 @@
 # Assignments, Points, and Grading {#sec-assignments}
 
-## Assignments and Points (794 points)[^assignments-points-grades-1]
+## Assignments and Points (638 points)[^assignments-points-grades-1] {#sec-assignments}
 
 [^assignments-points-grades-1]: see makeup policies
 
-**Lecture Questions (50 points, 6% of your grade)**
+**Lecture Questions (56 points, 9% of your grade)**
 
-Every lecture will have live polls (through Poll Everywhere) that contain at least one question which is used for attendance and participation purposes, i.e. you don't need to answer the question correctly to get full points. However, the questions will also serve as review. Lecture questions are answered through Poll Everywhere or by paper (in case your phone is not working correctly) in lecture. There are 29 lectures throughout the semester and you will get full credit for attending 25 of them. Attending additional lectures beyond the 25 required will count as extra credit points. There is no make- up work for lecture questions! (25 lectures X 2 points = 50 points).
+Every lecture will have live polls (through Poll Everywhere) that contain at least one question which is used for attendance and participation purposes, i.e. you don't need to answer the question correctly to get full points. However, the questions will also serve as review. Lecture questions are answered through Poll Everywhere or by paper (in case your phone is not working correctly) in lecture. There are 28 lectures throughout the semester and you will get full credit for attending 24 of them. Attending additional lectures beyond the 24 required will count as extra credit points. There is no make- up work for lecture questions! (28 lectures X 2 points = 56 points).
 
-**Pre-Discussion Quiz (70 points, 9% of your grade)**
+**Pre-Discussion Quiz (70 points, 11% of your grade)**
 
 You will be required to complete a weekly pre-discussion quiz on Canvas. The quiz will cover material from the lecture and lecture companion materials on Canvas. The pre-discussion quiz will ensure you are prepped for small group and active learning activities in discussion. Pre-discussion quizzes are worth 5 points each and are due on Wednesdays by 11:59PM. All materials will be posted 1 week in advance and you are free to complete the quizzes any time before the due dates. (14 quizzes x 5 points = 70 points).
 
-**Weekly Summary Quiz (225 points, 28% of your grade)**
+**Weekly Summary Quiz (150 points, 24% of your grade)**
 
-The weekly summary quiz will cover material from lecture, lecture companion materials, lab, and discussion. Each weekly summary quiz is worth 15 points and is due on Fridays by 11:59PM. All materials will be posted 1 week in advance and you are free to complete the quizzes any time before the due days. (15 quizzes x 15 points = 225 points).
+The weekly summary quiz will cover material from lecture, lecture companion materials, lab, and discussion. Each weekly summary quiz is worth 15 points and is due on Fridays by 11:59PM. All materials will be posted 1 week in advance and you are free to complete the quizzes any time before the due days. (10 quizzes x 15 points = 150 points).
 
-**Discussion Team Exercises (84 points, 11% of your grade)**
+**Discussion Team Exercises (84 points, 13% of your grade)**
 
 During our Thursday discussion sessions, you will be collaborating in small groups (3-4 students) to complete a team exercise that is closely related to the weekly quiz and lecture topics for the week. You will get points for correctly completing a collaborative assignment as a group. (14 discussions x 6 points = 84 points).
 
-**Lab Assignment and Quizzes (78 points, 10% of your grade)**
+**Lab Assignment and Quizzes (78 points, 12% of your grade)**
 
 Each weekly lab will require students to complete a laboratory exercise sheet and lab quiz. The quiz will be taken after the lab TA has checked the lab assignment sheet. The lab assignment sheet is worth 3 points and the quiz is worth 3 points. Make sure to sign in and out of lab. (13 labs X 6 points = 78 points).
 
-**Land-use Report (87 points, 11% of your grade)**
+**Soil Property and Land Use Report (200 points, 31% of your grade)**
 
-One of the main goals in this course is for you to walk away knowing how to obtain, use, understand and interpret information from soil surveys. This is an important skill that will set you apart in the workforce from people who don't know how to do this. To support this course objective, you will be required to produce a brief (2 p.), professional-style report (with a cover letter) on appropriate land-uses for a client based on information from a soil survey.
-
-**Exams (200 points, 25% of your grade)**
-
-There will be four unit exams (the "final" will be a Unit 4 exam). Unit exams will include material from that unit's lectures and labs (50 points each). Note: Exams will be open on Canvas for a minimum of 36 hours - you will be able to take the exams at any time during the open period, but they must be completed when the period closes.
+One of the main goals in this course is for you to walk away knowing how to obtain, use, understand and interpret information from soil surveys. This is an important skill that will set you apart in the workforce from people who don't know how to do this. To support this course objective, you will produce a (4 p.) report that requires you to apply lecture material to real-world land uses in an area of your choosing. This assignment will be submitted in 4 parts throughout the semester, each portion worth 50 points. (4 parts X 50 points = 200 points)
 
 ## Grading
 
@@ -58,7 +54,7 @@ A grade of C- is required to pass this class if you elected to take this course 
 
 ### Grade Assignments
 
-Grades will be assigned by earned point values as described on this page. No curve will be applied. **I do not oblige requests for grade "bump-ups" for extra credit at the end off the semester as these requests are not fair to your fellow students and against University policy. However, I do calculate everybody's final grade with a 0.5% grace (after giving you the 6 points back). So, in other words, if you are within 0.5% of the next grade category you will receive the higher grade. Be proud of the grade you earned!**
+Grades will be assigned by earned point values as described on this page. No curve will be applied. **I do not oblige requests for grade "bump-ups" for extra credit at the end off the semester as these requests are not fair to your fellow students and against University policy. However, I do calculate everybody's final grade with a 0.5% grace. So, in other words, if you are within 0.5% of the next grade category you will receive the higher grade. Be proud of the grade you earned!**
 
 ### Grading Challenges
 

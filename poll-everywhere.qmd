@@ -2,7 +2,7 @@
 
 ## What is Poll Everywhere?
 
-Poll Everywhere is a live polling and survey app that we will be using throughout the semester. It will be used to respond to questions in lecture for attendance purposes (**NOTE: For full credit on the [Lecture Questions](assignments-points-grades.qmd) portion of your grade, you are required to attend a minimum of 25 of the 29 lectures throughout the semester. If you attend more than 25 lectures, you will receive extra credit.**) If you are a registered student in SOIL 2125, you will have had an account created for you in Poll Everywhere by Nic or Nora. Below are the steps to get you started using the app.
+Poll Everywhere is a live polling and survey app that we will be using throughout the semester. It will be used to respond to questions in lecture for attendance purposes (**NOTE: For full credit on the [Lecture Questions](assignments-points-grades.qmd) portion of your grade, you are required to attend a minimum of 24 of the 28 lectures throughout the semester. If you attend more than 24 lectures, you will receive extra credit.**) If you are a registered student in SOIL 2125, you will have had an account created for you in Poll Everywhere by your instructors. Below are the steps to get you started using the app.
 
 ## Getting Started with the Poll Everywhere App
 
@@ -16,7 +16,7 @@ Download the app to your phone and open it.
 
 ### Logging In - FOLLOW THESE INSTRUCTIONS!
 
-If you are registered for this course, then we have created and account for you in Poll Everywhere **using your University email - remember to use your .edu email, not a personal account.**
+If you are registered for this course, then we have created an account for you in Poll Everywhere **using your University email - remember to use your .edu email, not a personal account.**
 
 1.  Open the Poll Everywhere app. The homescreen should look like this:
 
