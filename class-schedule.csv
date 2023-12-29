@@ -1,60 +1,63 @@
-WEEK,DAY,DATE,"""TOPIC FOCUS""",WHAT'S DUE?,SUGGESTED READINGS[^1],LAB UNIT
+WEEK,DAY,DATE,"""TOPIC FOCUS""","""WHAT'S DUE?""",SUGGESTED READINGS[^1],LAB UNIT
 Week 1,W,17-Jan,"Introduction and Overview, Soil Diversity (1-1)",,pp 3-14,***No Lab***
 Week 1,Th,18-Jan,Week 1 Discussion,,,
-Week 1,F,19-Jan,,,,
+Week 1,F,19-Jan,Soil Physical Properties - (1-2),,,
 Week 2,M,22-Jan,Soil Physical Properties - Color and Structure (1-3),,pp 96-109,"1. Soil Properties - Texture, Color and Structure"
 Week 2,W,24-Jan,Soil Physical Properties - By Weight/Volume (1-4),,"pp 114-123, 141-143",
 Week 2,Th,25-Jan,Week 2 Discussion,,,
-Week 2,F,26-Jan,Zoom Session: Intro to Web Soil Survey,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 2,F,26-Jan,Zoom Session: Overview of Soil Properties and Land Use Report,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 3,M,29-Jan,Soil Chemical Properties - Elemental Composition (1-5),,Canvas,2. Soil Properties - Clays and Mineralogy
 Week 3,W,31-Jan,Soil Chemical Properties - Mineralogy  (1-6),,"pp 235-247, 263-265",
 Week 3,Th,1-Feb,Week 3 Discussion,,,
-Week 3,F,2-Feb,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 3,F,2-Feb,Zoom Session: Intro to Web Soil Survey and Soil Web,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 4,M,5-Feb,Soil Chemical Properties - Organic Matter (1-7),,"pp 361-378, 383-387","3. Soil Properties - Bulk Density, Porosity, Organic Matter"
 Week 4,W,7-Feb,Soil Chemical Properties - pH (1-8),,pp 270-311,
 Week 4,Th,8-Feb,Week 4 Discussion,,,
-Week 4,F,9-Feb,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
-Week 5,M,12-Feb,"Soil Processes - Ion Exchange and CEC (#1, 2-1) ",,pp 248-260,"4. Ion Exchange, CEC, pH"
-Week 5,W,14-Feb,"Soil Processes - Ion Exchange and CEC (#2, 2-1)",,,
+Week 4,F,9-Feb,Zoom Session (OPTIONAL): Q&A Soil Properties and Land Use Report - Part 1,,,
+Week 5,M,12-Feb,NO LECTURE,,pp 248-260,"4. Ion Exchange, CEC, pH"
+Week 5,T ,13-Feb,,"Soil Properties and Land Use Report, Part 1 @ 11:59 PM (Canvas)",,
+Week 5,W,14-Feb,"Soil Processes - Ion Exchange and CEC (#1, 2-1)",,,
 Week 5,Th,15-Feb,Week 5 Discussion,,,
-Week 5,F,16-Feb,END OF UNIT 1,"Soil Properties and Land Use Report, Part 1 @ 11:59 PM (Canvas)",,
+Week 5,F,16-Feb,"Soil Processes - Ion Exchange and CEC (#2, 2-1)",Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 6,M,19-Feb,"Soil Processes - Water Movement (#1, 2-3)",,"pp 132-163, 165-199",5. Soil Water
 Week 6,W,21-Feb,"Soil Processes - Water Movement (#2, 2-4)",,"pp 132-163, 165-199",
 Week 6,Th,22-Feb,Week 6 Discussion,,,
-Week 6,F,23-Feb,Zoom Session: Intro to Soil Web ??,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 6,F,23-Feb,Zoom Session: Topic TBD,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 7,M,26-Feb,Soil Processes - Energy and Microorganisms (2-5),,pp 322-351,6. Soil Biological Processes (1)
 Week 7,W,28-Feb,Soil Processes - C and N Cycles (2-6),,pp 396-412,
 Week 7,Th,29-Feb,Week 7 Discussion,,,
-Week 7,F ,1-Mar,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 7,F ,1-Mar,NO LECTURE,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 8,M-F,4-Mar - 8-Mar,*****NO CLASS - SPRING BREAK*****,,,
 Week 9,M,11-Mar,Soil Processes - Pedoturbation/Macrobiology (2-7),,Canvas,7. Soil Biological Processes (2)
 Week 9,W,13-Mar,Soil Processes - Redox (2-8),,"pp 201-206, 213-218",
 Week 9,Th,14-Mar,Week 9 Discussion,,,
-Week 9,F,15-Mar,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
-Week 10,M,18-Mar,"Soil Genesis and Soil Forming Factors (#1, 3-1)",,,8. Mineral Weathering
-Week 10,W,20-Mar,"Soil Genesis and Soil Forming Factors (#2, 3-2)",,"pp 27-43, 51-52",
+Week 9,F,15-Mar,Zoom Session: (OPTIONAL) Q&A Soil Properties and Land Use Report - Part 2,,,
+Week 10,M,18-Mar,NO LECTURE,,,8. Mineral Weathering
+Week 10,T,19-Mar,,"Soil Properties and Land Use Report, Part 2 @ 11:59 PM (Canvas)",,
+Week 10,W,20-Mar,"Soil Genesis and Soil Forming Factors (#1, 3-1)",,"pp 27-43, 51-52",
 Week 10,Th,21-Mar,Week 10 Discussion,,,
-Week 10,F,22-Mar,END OF UNIT 2,"Soil Properties and Land Use Report, Part 2 @ 11:59 PM (Canvas)",,
+Week 10,F,22-Mar,"Soil Genesis and Soil Forming Factors (#2, 3-2)",Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 11,M,25-Mar,Soil Genesis - Climate and Organisms (3-3) ,,pp 43-51,9. Soil Forming Factors
 Week 11,W,27-Mar,Soil Horizons (3-4),,pp 52-57,
 Week 11,Th,28-Mar,Week 11 Discussion,,,
-Week 11,F,29-Mar,Zoom Session: ??,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 11,F,29-Mar,Zoom Session: Permafrost-Affected Soils,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 12,M,1-Apr,"Soil Taxonomy (#1, 3-5)",,pp 58-95,10. Soil Classification
 Week 12,W,3-Apr,"Soil Taxonomy (#2, 3-6)",,pp 58-95,
 Week 12,Th,4-Apr,Week 12 Discussion,,,
-Week 12,F ,5-Apr,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
-Week 13,M,8-Apr,"Soil Survey (#1, 4-1)",,,11. Soil Survey
-Week 13,W,10-Apr,"Soil Survey (#2, 4-2)",,pp 89-93,
+Week 12,F ,5-Apr,Zoom Session: (OPTIOANL) Q&A Soil Properties and Land Use Report - Part 3,,,
+Week 13,M,8-Apr,NO LECTURE,,,11. Soil Survey
+Week 13,T,9-Apr,,"Soil Properties and Land Use Report, Part 3 @ 11:59 PM (Canvas)",,
+Week 13,W,10-Apr,"Soil Survey (#1, 4-1)",,pp 89-93,
 Week 13,Th,11-Apr,Week 13 Discussion,,,
-Week 13,F,12-Apr,END OF UNIT 3,"Soil Properties and Land Use Report, Part 3 @ 11:59 PM (Canvas)",,
+Week 13,F,12-Apr,"Soil Survey (#2, 4-2)",Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 14,M,15-Apr,"Nutrient Management and Fertility (#1, 4-3)",,"pp 420-442, 455-496","12. Soil Fertility, Soil Chemical Management"
 Week 14,W,17-Apr,"Nutrient Management and Fertility (#2, 4-4)",,"pp 420-442, 455-496",
 Week 14,Th,18-Apr,Week 14 Discussion,,,
-Week 14,F,19-Apr,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 14,F,19-Apr,Zoom Session: Nutrient Management Problems and Soil Mapping,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 15,M,22-Apr,Soil Physical Management - Tillage (4-5),,pp 110-114,13. Soil Physical Management
 Week 15,W,24-Apr,Soil Physical Management - Erosion (4-6),,pp 499-533,
 Week 15,Th,25-Apr,Week 15 Discussion,,,
-Week 15,F,26-Apr,,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
+Week 15,F,26-Apr,Zoom Session: (OPTIONAL) Q&A Soil Properties and Land Use Report - Part 4,Weekly Summary Quiz Due @ 11:59PM (Canvas),,
 Week 16,M,29-Apr,"Soil Biological Management (4-7), Urban Soils and Soil Contaminants (4-8)",,"pp 368-371, 545-551",***No Lab***
-Week 16,W,1-May,(Optional) Zoom Session: Soil Mapping in ArcGIS?,,,
-Week 16,Su,5-May,,Soil Properties and Land Use Final Report @ 11:59 PM (Canvas),,
+Week 16,W,1-May,Zoom Session: Extra Credit - Course Review,,,
+Week 16,Su,5-May,,Soil Properties and Land Use Final Report and Cumulative Questions @ 11:59 PM (Canvas),,
