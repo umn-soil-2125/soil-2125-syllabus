@@ -20,7 +20,7 @@ book:
     - intro.qmd
     - course-resources.qmd
     - assignments-points-grades.qmd
-    # - poll-everywhere.qmd
+    - poll-everywhere.qmd
     - makeup-policies.qmd
     - fine-print.qmd
     - class-schedule.qmd
