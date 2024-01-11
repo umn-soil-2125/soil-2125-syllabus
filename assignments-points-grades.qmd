@@ -1,12 +1,12 @@
 # Assignments, Points, and Grading {#sec-assignments}
 
-## Assignments and Points (638 points)[^assignments-points-grades-1] {#sec-assignments}
+## Assignments and Points (640 points)[^assignments-points-grades-1] {#sec-assignments}
 
 [^assignments-points-grades-1]: see makeup policies
 
-**Lecture Questions (56 points, 9% of your grade)**
+**Lecture Questions (58 points, 9% of your grade)**
 
-Every lecture will have live polls (through Poll Everywhere) that contain at least one question which is used for attendance and participation purposes, i.e. you don't need to answer the question correctly to get full points. However, the questions will also serve as review. Lecture questions are answered through Poll Everywhere or by paper (in case your phone is not working correctly) in lecture. There are 28 lectures throughout the semester and you will get full credit for attending 24 of them. Attending additional lectures beyond the 24 required will count as extra credit points. There is no make- up work for lecture questions! (28 lectures X 2 points = 56 points).
+Every required lecture will have live polls (through Poll Everywhere) that contain at least one question which is used for attendance and participation purposes, i.e. you don't need to answer the question correctly to get full points. However, the questions will also serve as review. Lecture questions are answered through Poll Everywhere or by paper (in case your phone is not working correctly) in lecture. There are 33 lectures throughout the semester and you will get full credit for attending 29 of them. Attending additional lectures beyond the 29 required will count as extra credit points. There is no make- up work for lecture questions! (29 lectures X 2 points = 58 points).
 
 **Pre-Discussion Quiz (70 points, 11% of your grade)**
 
