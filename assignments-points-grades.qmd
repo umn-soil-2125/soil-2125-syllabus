@@ -1,6 +1,6 @@
 # Assignments, Points, and Grading {#sec-assignments}
 
-## Assignments and Points (640 points)[^assignments-points-grades-1] {#sec-assignments}
+## Assignments and Points (640 points)[^assignments-points-grades-1]
 
 [^assignments-points-grades-1]: see makeup policies
 
